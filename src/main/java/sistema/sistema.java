@@ -17,6 +17,7 @@ public class sistema {
     
     public static void main(String[]args){
         System.out.println("BIENVENIDO AL SISTEMA");
+        System.out.println("MENÚ PRINCIPAL");
     }
         public void iniciarSesion(){
             //String name;
