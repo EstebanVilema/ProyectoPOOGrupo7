@@ -4,10 +4,29 @@
  */
 package sistema;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author usuario
  */
 public class sistema {
+    //private ArrayList<listaCliente> clientes;
+    //private ArrayList<listaServicios> servicio;
     
+    
+    public static void main(String[]args){
+        System.out.println("BIENVENIDO AL SISTEMA");
+    }
+        public void iniciarSesion(){
+            //String name;
+            //String contraseña;
+            //Sesion sesion = new Sesion();
+            
+            
+        }
+        public void validarIngreso(){
+        }
+        public void mostrarMenu(){
+        }
 }

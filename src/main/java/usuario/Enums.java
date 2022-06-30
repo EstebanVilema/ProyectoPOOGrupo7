@@ -9,5 +9,16 @@ package usuario;
  * @author usuario
  */
 public class Enums {
-    
+    enum TipoCliente{
+        C,V;
+    }
+    enum transmicionCarro{
+        manual,automatica;
+    }
+    enum estadoServicio{
+        Disponible,Ocupado;
+    }
+    enum tipoHabitacion{
+        individual,doble,familiar;
+    }
 }
