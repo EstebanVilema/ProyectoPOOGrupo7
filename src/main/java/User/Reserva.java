@@ -2,14 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package usuario;
+package User;
 import java.util.Date;
-import usuario.Enums.TipoCliente;
+import User.Enums.TipoCliente;
 /**
  *
  * @author usuario
  */
-public class reserva {
+public class Reserva {
     private Double valorPorPagar;
     private Integer codigoReserva;
     private Date fechaReserva= new Date();
