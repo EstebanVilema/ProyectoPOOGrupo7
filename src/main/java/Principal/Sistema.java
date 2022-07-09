@@ -11,18 +11,18 @@ import java.util.ArrayList;
  * @author usuario
  */
 public class Sistema {
-    //private ArrayList<listaCliente> clientes;
-    //private ArrayList<listaServicios> servicio;
-    
+    ArrayList<String> clientes = new ArrayList<>();
+    ArrayList<String> servicio = new ArrayList<>();
+    //definición de arreglos
     
     public static void main(String[]args){
         System.out.println("BIENVENIDO AL SISTEMA");
         System.out.println("MENÚ PRINCIPAL");
     }
         public void iniciarSesion(){
-            //String name;
-            //String contraseña;
-            //Sesion sesion = new Sesion();
+            String name;
+            String contraseña;
+            Sesion sesion = new Sesion();
             
             
         }
