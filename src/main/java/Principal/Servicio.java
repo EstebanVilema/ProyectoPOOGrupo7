@@ -8,6 +8,6 @@ package Principal;
  *
  * @author usuario
  */
-class Sesion {
+public class Servicio {
     
 }
