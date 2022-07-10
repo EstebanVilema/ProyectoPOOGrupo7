@@ -8,6 +8,6 @@ package Principal;
  *
  * @author usuario
  */
-public class Transporte {
+public class Transporte  {
     
 }

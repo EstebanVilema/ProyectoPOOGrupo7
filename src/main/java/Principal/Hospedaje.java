@@ -1,13 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Principal;
 
-/**
- *
- * @author usuario
- */
-public class Hospedaje {
+import java.util.Date;
+public class Hospedaje extends Servicio{
+    private Date fechaEntrada; 
+    private Date fechaSalida;
     
+    //constructor hospedaje
+
+    public Hospedaje(Date fechaEntrada, Date fechaSalida, String ciudad, double puntuacion, int identificador, double valorApagar) {
+        super(ciudad, puntuacion, identificador, valorApagar);
+        this.fechaEntrada = fechaEntrada;
+        this.fechaSalida = fechaSalida;
+    }
+
 }
