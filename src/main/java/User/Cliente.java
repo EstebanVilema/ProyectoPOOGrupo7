@@ -15,7 +15,7 @@ public class Cliente extends Usuario{
     private boolean registro;
     private String edad;
     ArrayList<String> listaServicios = new ArrayList<>();
-    private Enums.TipoCliente cliente;
+    private TipoCliente cliente;
     private ArrayList<Cliente> clientesEnLista=new ArrayList<>();
     private int numerotarjeta;
     private int numCheque;

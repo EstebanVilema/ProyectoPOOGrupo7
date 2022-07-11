@@ -4,7 +4,7 @@
  */
 package User;
 import java.util.Date;
-import User.Enums.TipoCliente;
+import User.TipoCliente;
 /**
  *
  * @author usuario
